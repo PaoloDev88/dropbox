@@ -8,8 +8,10 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background-color: #b4d0e7;
+    /* background-color: #b4d0e7; */
 }
+
+/* regole header */
 
 header{
     height: 80px;
@@ -67,3 +69,72 @@ header>nav li>a{
     font-size: 14px;
     margin-left: 45px;
 }
+
+/* fine regole header */
+
+/* regole jumbotron */
+
+#jumbotron{
+    background-color: #b4d0e7;
+    width: 100%;
+    height: 100vh;
+    padding: 80px 145px;
+}
+
+#jumbotron>h1{
+    font-size: 76px;
+    margin-bottom: 50px;
+}
+
+#jumbotron .jumbobox{
+    width: 100%;
+}
+
+#jumbotron .jumbobox::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.jumbobox>div{
+    float: left;
+}
+
+#jumbotron .jumbotext{
+    font-weight: 600;
+    width: 400px;
+    margin-right: 40px;
+    /* background-color: red; */
+}
+
+.jumbotext>a{
+    text-decoration: none;
+    color: white;
+    background-color: #0061ff;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.jumbotext>span{
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.jumbotext>div{
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+#jumbotron .jumboimagebox{
+    max-width: calc(100% - 440px);
+}
+
+#jumbotron img{
+    object-fit:cover;
+    width: 100%;
+}
+
+/* fine regole jumbotron */
