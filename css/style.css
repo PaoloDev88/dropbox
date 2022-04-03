@@ -139,7 +139,10 @@ header.page>nav li>a{
 
 /* fine regole jumbotron */
 
-section{
+
+/* regole generali main>section */
+
+main>section{
     /* background-color: red; */
     /* height: 500px; */
     width: 100%;
@@ -147,11 +150,21 @@ section{
     font-weight: 900;
 }
 
-section h2{
+main>section h2{
     font-size: 40px;
 }
 
+/* fine regole generali main>section */
+
 /* regole pacchetti disponibili */
+
+section.packages{
+    margin-top: 200px;
+}
+
+.packages header{
+    margin-bottom: 40px;
+}
 
 .packages header>h2{
     margin-bottom: 50px;
@@ -169,7 +182,7 @@ section h2{
 
 .packages header .unchosen{
     color: white;
-    border: 1px solid grey;
+    border: 1px solid lightgray;
     padding: 8px;
     border-radius: 50%;
     display: inline-block;
@@ -179,4 +192,149 @@ section h2{
     font-weight: 600;
 }
 
+.packages>.box{
+    width: 100%;
+}
+
+.packages>.box::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.packages .card{
+    border:1px solid lightgray;
+    float: left;
+}
+
+.packages .vertical{
+    float: left;
+    width: calc((100% - 100px) / 3);
+    height: 1100px;
+    /* background-color: red; */
+}
+
+.packages .central{
+    margin: 0 50px;
+}
+
+.packages .orizzontal{
+    width: 100%;
+    margin-top: 50px;
+    /* height: 50px; */
+    /* background-color: green; */
+}
+
+.packages .card>div{
+    padding: 0 30px;
+}
+
+.packages .card .name{
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 600;
+    border-bottom: 1px solid lightgray;
+}
+
+.packages .card .price h3{
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.packages .card .price div{
+    color: grey;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.packages .card .features>div{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.packages .card .links .button{
+    text-decoration: none;
+    display: block;
+    background-color: #0061ff;
+    color: white;
+    padding: 7px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.packages .card .links span{
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+.packages .card .links .link{
+    color: #0061ff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.packages .card .links .breakline{
+    width: 50px;
+    border-top: 1px solid lightgray;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.packages .card .bullets h5{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.packages .card .bullets>div::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.packages .card .bullets>div *{
+    float: left;
+}
+
+.packages .card .bullets>div{
+    margin-top: 25px;
+}
+
+.packages .card .bullets div>span{
+    font-size: 14px;
+    font-weight: 600;
+    width: 90%;
+}
+
+.packages .card .bullets div>i{
+    color: #0061ff;
+    width: 10%;
+}
+
+.packages .card.orizzontal{
+    position: relative;
+}
+
+.packages .card.orizzontal .links{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.packages .card.orizzontal .links .button{
+    width: 300px;
+}
+
+
+
 /* fine regole pacchetti disponibili */
+
