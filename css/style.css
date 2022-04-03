@@ -11,46 +11,46 @@ body{
     /* background-color: #b4d0e7; */
 }
 
-/* regole header */
+/* regole header.page */
 
-header{
+header.page{
     height: 80px;
     background-color: white;
     position: relative;
 }
 
-header::after{
+header.page::after{
     content: "";
     display: table;
     clear: both;
 }
 
-header>nav.sx, header>.logo{
+header.page>nav.sx, header.page>.logo{
     float: left;
 }
 
-header>.button, header>nav.dx{
+header.page>.button, header.page>nav.dx{
     float: right;
 }
 
-header>.logo{
+header.page>.logo{
     height: 100%;
     display: inline-block;
     margin-left: 20px;
 }
 
-header .logo>img{
+header.page .logo>img{
     position: relative;
     top:50%;
     transform: translateY(-50%)
 }
 
-header>nav li{
+header.page>nav li{
     display: inline-block;
     line-height: 80px;
 }
 
-header>nav li>a{
+header.page>nav li>a{
     margin-left: 40px;
     text-decoration: none;
     display: block;
@@ -70,7 +70,7 @@ header>nav li>a{
     margin-left: 45px;
 }
 
-/* fine regole header */
+/* fine regole header.page */
 
 /* regole jumbotron */
 
@@ -138,3 +138,45 @@ header>nav li>a{
 }
 
 /* fine regole jumbotron */
+
+section{
+    /* background-color: red; */
+    /* height: 500px; */
+    width: 100%;
+    padding: 0 270px;
+    font-weight: 900;
+}
+
+section h2{
+    font-size: 40px;
+}
+
+/* regole pacchetti disponibili */
+
+.packages header>h2{
+    margin-bottom: 50px;
+}
+
+.packages header>div{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.packages header i{
+    color: #0061ff;
+    font-size: 20px;
+}
+
+.packages header .unchosen{
+    color: white;
+    border: 1px solid grey;
+    padding: 8px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.packages header span{
+    font-weight: 600;
+}
+
+/* fine regole pacchetti disponibili */
