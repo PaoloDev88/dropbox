@@ -434,10 +434,6 @@ section.findapartner{
 
 /* regole .faq */
 
-section.faq{
-    border-bottom: 1px solid lightgrey;
-}
-
 .faq>h2{
     font-size: 33px;
     margin-bottom: 50px;
@@ -447,6 +443,10 @@ section.faq{
     border-top: 1px solid lightgrey;
     height: 100px;
     line-height: 100px;
+}
+
+.faq>.row:last-of-type{
+    border-bottom: 1px solid lightgrey;
 }
 
 .faq>.row::after{
@@ -467,3 +467,54 @@ section.faq{
 }
 
 /* fine regole .faq */
+
+/* regole footer */
+
+footer{
+    margin-top: 130px;
+    padding: 0 145px;
+    background-color: black;
+    color: white;
+}
+
+footer>.footerbox::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer section{
+    float: left;
+    width: 20%;
+}
+
+footer section h3{
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+footer section li{
+    list-style-type: none;
+}
+
+footer section a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+footer>.languages{
+    width: 120px;
+    color: grey;
+    border-top: 1px solid #bfbfbf;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+}
+
+footer>.languages span, footer>.languages .fa-caret-up{
+    font-size: 13px;
+}
+
+/* fine regole footer */
