@@ -439,7 +439,27 @@ section.testimonials{
     padding: 0%;    
 }
 
+/* header testimonials */
+
+.testimonials>header{
+    padding: 0 250px;
+}
+
+.testimonials>header h2{
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.testimonials>header a{
+    color: #0061ff;
+    /* font-size: 14px; */
+    font-weight: 600;
+}
+
+/* fine header testimonials */
+
 .testimonials>.row{
+    margin-top: 50px;
     width: 100%;
 }
 
