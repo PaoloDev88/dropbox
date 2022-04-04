@@ -430,5 +430,42 @@ section.findapartner{
     margin-top: 20px;
 }
 
-
 /* fine regole .benefits */
+
+/* regole .faq */
+
+section.faq{
+    border-bottom: 1px solid lightgrey;
+}
+
+.faq>h2{
+    font-size: 33px;
+    margin-bottom: 50px;
+}
+
+.faq>.row{
+    border-top: 1px solid lightgrey;
+    height: 100px;
+    line-height: 100px;
+}
+
+.faq>.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.faq>.row span{
+    float: left;
+}
+
+.faq>.row i{
+    float: right;
+    line-height: 100px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+
+
+/* fine regole .faq */
