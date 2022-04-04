@@ -250,6 +250,24 @@ section.packages{
     margin-top: 30px;
 }
 
+.packages .card .features>div::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.packages .card .features div>*{
+    float: left;
+}
+
+.packages .card .features div>i{
+    width: 10%;
+}
+
+.packages .card .features div>span{
+    width: 90%;
+}
+
 .packages .card .links .button{
     text-decoration: none;
     display: block;
