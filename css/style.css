@@ -390,7 +390,45 @@ section.findapartner{
     margin-top: 25px;
 }
 
-
-
-
 /* fine regole .findapartner */
+
+/* regole .benefits */
+
+.benefits>h2{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.benefits::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.benefits>div{
+    float: left;
+    width: calc((100% - 100px) / 3);
+    margin-bottom: 100px;
+    /* height: 400px; */
+    /* background-color: red; */
+}
+
+.benefits div.central{
+    margin: 0 50px;
+}
+
+.benefits>div img{
+    width: 100%;
+}
+
+.benefits>div h3{
+    font-size: 24px;
+}
+
+.benefits>div p{
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+
+/* fine regole .benefits */
