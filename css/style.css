@@ -8,7 +8,6 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    /* background-color: #b4d0e7; */
 }
 
 /* regole header.page */
@@ -104,7 +103,6 @@ header.page>nav li>a{
     font-weight: 600;
     width: 400px;
     margin-right: 40px;
-    /* background-color: red; */
 }
 
 .jumbotext>a{
@@ -143,8 +141,6 @@ header.page>nav li>a{
 /* regole generali main>section */
 
 main>section{
-    /* background-color: red; */
-    /* height: 500px; */
     width: 100%;
     padding: 0 250px;
     font-weight: 900;
@@ -210,7 +206,6 @@ section.packages{
 .packages .vertical{
     width: calc((100% - 100px) / 3);
     height: 1100px;
-    /* background-color: red; */
 }
 
 .packages .central{
@@ -220,8 +215,6 @@ section.packages{
 .packages .orizzontal{
     width: 100%;
     margin-top: 50px;
-    /* height: 50px; */
-    /* background-color: green; */
 }
 
 .packages .card>div{
@@ -335,8 +328,6 @@ section.packages{
 
 /* fine regole pacchetti disponibili */
 
-
-
 /* regole .findapartner */
 
 section.findapartner{
@@ -409,8 +400,6 @@ section.findapartner{
     float: left;
     width: calc((100% - 100px) / 3);
     margin-bottom: 100px;
-    /* height: 400px; */
-    /* background-color: red; */
 }
 
 .benefits div.central{
@@ -452,7 +441,6 @@ section.testimonials{
 
 .testimonials>header a{
     color: #0061ff;
-    /* font-size: 14px; */
     font-weight: 600;
 }
 
@@ -486,9 +474,6 @@ section.testimonials{
 .testimonials .row>.box{
     width: 30%;
     height: 30vw;
-
-
-    /* border: 1px solid black; */
 }
 
 .testimonials .row>.central{
@@ -497,9 +482,6 @@ section.testimonials{
     background-color: #f5f5f5;
     padding: 60px 50px;
     font-weight: 600;
-
-
-    /* background-color: red; */
 }
 
 .testimonials .row>.central .logo{
@@ -526,10 +508,6 @@ section.testimonials{
     width: 50%;
     height: 15vw;
     position: relative;
-
-
-    /* background-color: rgb(0, 255, 64); */
-    /* border: 1px solid black; */
 }
 
 .testimonials>.row .box>div img{
@@ -575,8 +553,39 @@ section.testimonials{
     background-color: #ffd830;
 }
 
+/* .calltoaction testimonials */
 
+.testimonials>.calltoaction{
+    padding: 0 250px;
+    background-color: #b4d0e7;
+    margin-bottom: 120px;
+}
 
+.testimonials>.calltoaction::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.testimonials .calltoaction>h2{
+    float: left;
+    color: #61082b;
+    width: 50%;
+    padding: 120px 0;
+}
+
+.testimonials .calltoaction>a{
+    float: right;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 70px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 120px;
+}
+
+/* fine .calltoaction testimonials */
 
 /* fine regole .testimonals */
 
